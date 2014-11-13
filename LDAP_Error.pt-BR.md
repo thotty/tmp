@@ -24,7 +24,7 @@ Código | Erro | Descrição
 0x20 | LDAP_NO_SUCH_OBJECT | Objeto não existe no LDAP.
 0x21 | LDAP_ALIAS_PROBLEM | A sigla (apelido) é inválida no LDAP.
 0x22 | LDAP_INVALID_DN_SYNTAX | O nome distinto tem uma sintaxe inválida no LDAP.
-0x23 | LDAP_IS_LEAF | O objeto é pode conter outros objetos no LDAP.
+0x23 | LDAP_IS_LEAF | O objeto é um objeto que pode conter outros objetos no LDAP.
 0x24 | LDAP_ALIAS_DEREF_PROBLEM | Não pode indentificar o apelido no LDAP.
 0x30 | LDAP_INAPPROPRIATE_AUTH | A autenticação no LDAP é inadequada.
 0x31 | LDAP_INVALID_CREDENTIALS | A senha do LDAP é inválida.
@@ -32,7 +32,7 @@ Código | Erro | Descrição
 0x33 | LDAP_BUSY | O servidor do LDAP está ocupado.
 0x34 | LDAP_UNAVAILABLE | O servidor do LDAP não está disponível.
 0x35 | LDAP_UNWILLING_TO_PERFORM | O servidor do LDAP não manipula requisições do diretório.
-0x36 | LDAP_LOOP_DETECT | A cadeia de emcaminhamento tem loop de volta para um servidor de referência no LDAP.
+0x36 | LDAP_LOOP_DETECT | A cadeia de encaminhamento tem loop de volta para um servidor de referência no LDAP.
 0x40 | LDAP_NAMING_VIOLATION | Houve uma violação de nome no LDAP.
 0x41 | LDAP_OBJECT_CLASS_VIOLATION | Ocorreu uma violação na classe do objeto no LDAP.
 0x42 | LDAP_NOT_ALLOWED_ON_NONLEAF | Operação não é permitida em um objeto que pode conter outros objetos no LDAP.
