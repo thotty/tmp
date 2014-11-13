@@ -27,7 +27,7 @@ Código | Erro | Descrição
 0x23 | LDAP_IS_LEAF | O objeto é um objeto que pode conter outros objetos no LDAP.
 0x24 | LDAP_ALIAS_DEREF_PROBLEM | Não pode indentificar o apelido no LDAP.
 0x30 | LDAP_INAPPROPRIATE_AUTH | A autenticação no LDAP é inadequada.
-0x31 | LDAP_INVALID_CREDENTIALS | A senha do LDAP é inválida.
+0x31 | LDAP_INVALID_CREDENTIALS | Usuário/senha do LDAP inválidos.
 0x32 | LDAP_INSUFFICIENT_RIGHTS | Os direitos de acesso do usuário são insuficientes no LDAP.
 0x33 | LDAP_BUSY | O servidor do LDAP está ocupado.
 0x34 | LDAP_UNAVAILABLE | O servidor do LDAP não está disponível.
